@@ -1,0 +1,54 @@
+body {
+    background-image: url('ride884_16184.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  select,
+  textarea {
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    margin-top: 0.5em;
+    width: 15%;
+  }
+  
+  button[type='submit'] {
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    cursor: pointer;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #005ea6;
+  }
+  footer{
+    text-anchor: end;
+    text-align: center;
+    font-size: 1cap;
+}

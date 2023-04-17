@@ -1,0 +1,63 @@
+header {
+    color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    text-align: center;
+    background-color: #02416618;
+    height: 100px;
+  }
+  
+  nav {
+    background-color: #e6c71900;
+    color: goldenrod;
+    position: fixed;
+    top: 150px;
+    width: 75%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: goldenrod;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+
+body {
+	background-image: url('suite1.jpg');
+	background-size: cover;
+	height: 100px;
+}
+
+
+main{
+    padding-top: 250px;
+    font-size: 2.0em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px #0f0d00;
+    text-transform: uppercase;
+    color: goldenrod;
+
+}
+footer{
+    text-anchor: end;
+    text-align: center;
+    font-size: 1cap;
+}

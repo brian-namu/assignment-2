@@ -1,0 +1,39 @@
+body{
+background-image: url('ride884_16176.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 0.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 1em;
+  }
+  h2{
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    font: 2em sans-serif;
+  }
+  p{
+
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-weight: bold;
+  }
+  p1{
+    font-style: italic;
+    color: azure;
+
+  }
+  footer{
+    text-anchor: end;
+    text-align: center;
+    font-size: 1cap;
+}

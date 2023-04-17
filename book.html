@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Book</title>
+    <meta name="viewport" content="width=device-width" />\
+    <link rel="stylesheet" href="book.css">
+  </head>
+  <body>
+    <h1>Booking Form</h1>
+    <form id="booking-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="check-in-date">Check-in date:</label>
+      <input type="date" id="check-in-date" name="check-in-date" required><br>
+
+      <label for="check-out-date">Check-out date:</label>
+      <input type="date" id="check-out-date" name="check-out-date" required><br>
+
+      <label for="room-type">Room type:</label>
+      <select id="room-type" name="room-type">
+        <option value="single">Single Room</option>
+        <option value="double">Double Room</option>
+        <option value="suite">Suite</option>
+      </select><br>
+
+      <label for="comments">Comments:</label>
+      <textarea id="comments" name="comments"></textarea><br>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <script>
+      const form = document.getElementById('booking-form');
+      form.addEventListener('submit', handleSubmit);
+
+      function handleSubmit(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const checkInDate = document.getElementById('check-in-date').value;
+        const checkOutDate = document.getElementById('check-out-date').value;
+        const roomType = document.getElementById('room-type').value;
+        const comments = document.getElementById('comments').value;
+
+        // You can use this information to send a booking request to your server or API
+        console.log('Name:', name);
+        console.log('Email:', email);
+        console.log('Check-in date:', checkInDate);
+        console.log('Check-out date:', checkOutDate);
+        console.log('Room type:', roomType);
+        console.log('Comments:', comments);
+      }
+    </script>
+  </body>
+</html>
+
+
+  </body>
+</html>
